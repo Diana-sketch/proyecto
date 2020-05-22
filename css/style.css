@@ -1,0 +1,226 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    background: url(../img/prin.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-size: 62.5%;/**Reset para REMS - 62.5% =10px de 16px**/
+}
+
+
+.cont{
+    border: 1px solid #B5B5B5;
+    width: 90%;
+    margin: auto;
+}
+
+.botones_afuera{
+    width: 90%;
+    margin: auto;
+  
+   
+
+}
+
+
+
+/*Globales*/
+
+.contenedor{
+    max-width: 120rem; /** = 1100px**/
+    margin: 0 auto;
+}
+h1{
+    font-size: 3.8rem;
+}
+h2{
+    font-size: 3.4rem;
+}
+h3{
+    font-size: 3rem;
+}
+h4{
+    font-size: 2.6rem;
+}
+
+/**Utilidades**/
+.seccion{
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+.d-block{
+    display: block;
+}
+/** Botones **/
+.navegacion{
+    min-width: 100rem;
+    float: left;
+}
+
+
+.boton{
+    color: #000000;
+    text-decoration: none;
+    
+    display: inline-block;
+    text-align: center;
+}
+.boton-gris{
+    background-color: #B5B5B5;
+    /*display: block;*/
+}
+.boton-negro{
+    background-color: #000000;
+    /*display: block;*/
+}
+/*Header*/
+.site-header{
+    
+    padding: 1rem 0 3rem 0;
+}
+.site-header.inicio{
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    height: 100vh;
+    /* min-height: 60rem;  */
+}
+.contenido-header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.titulo{
+    padding: 5rem;
+}
+.contenido-header h1{
+    padding-bottom: 2rem;
+    max-width: 60rem;
+}
+.barra{
+    display: flex;
+    /**justify-content: space-between;**/
+    align-items: center;
+    padding-top: 3rem;
+}
+.log{
+    width: 10rem;
+    border-radius: 50px;
+    float: right;
+    margin-left: 1rem;
+}
+/**Navegacion**/
+.navegacion a{
+    color: #F5F5F5;
+    text-decoration: none;
+    font-size: 1.8rem;/** = 18px**/
+    margin-right: 2rem;
+}
+.navegacion a:hover{
+    color: #0061b1;
+}
+.navegacion a:last-of-type{
+    margin: 0;
+}
+
+/**Iconos Nosotros**/
+.iconos-nosotros{
+    display: flex;
+    justify-content: space-between;
+    background: #F5F5F5;
+    padding: 2rem;
+}
+.icono{
+    flex-basis: cal(33.3% - 1rem);
+    text-align: center;
+    padding: 1rem;
+}
+.icono h3{
+    text-transform: uppercase;
+}
+.imagen{
+    height: 19.5rem;
+}
+/** Anuncios **/
+.contenedor-anuncios{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.anuncio{
+    flex-basis: cal(33.3 - 1rem);
+}
+.anuncio h2,
+.contenido-anuncio p {
+    margin: 0;
+    padding: 1rem ;
+    justify-content: center;
+}
+.contenido-anuncio{
+    padding: 1rem;
+}
+.ver-mas{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+  /** Footer**/
+.site-footer{
+      
+      margin: 0;
+}
+.contenedor-footer{
+      padding: 1.5rem 0;
+}
+.copyright{
+      padding: 2rem;
+      margin: 0;
+      text-align: center;
+}
+
+  /**Internas**/
+  .contenido-nosotros{
+      display: grid;
+      grid-template-columns:repeat(2, 1fr);
+      grid-column-gap: 2rem;
+  }
+  .texto-nosotros blockquote{
+      font-weight: 900;
+      font-size: 2rem;
+      margin: 0;
+      padding: 1rem 0 3rem 0;
+  }
+  .text{
+      font-size: 1.5rem;
+  }
+  /** Mision y Vision **/
+  .texto-mision blockquote{
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 0;
+    padding: 1rem 0 3rem 0;
+    text-align: center;
+  }
+  /** Nuestros servicios **/
+
+.contenido-servicio{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-column-gap: 2rem;
+    padding: 3rem;
+  }
+  .vpeinado{
+    height: 25rem;
+    width: 25rem;
+    margin-left: 2rem;
+
+}
+
+/* ACOMO DE VIDEOS */
+
+.contenido_video{
+    display: flex;
+    
+}
+
+
